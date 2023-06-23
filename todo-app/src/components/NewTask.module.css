@@ -1,0 +1,50 @@
+.button{
+    width: 80px;
+    max-width: 200px;
+    background-color: rgb(181, 181, 252);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1%
+}
+
+.button:hover{
+    background-color: rgb(104, 104, 167);
+    color: white
+}
+
+.button:active{
+    background-color: rgb(78, 78, 125);
+    color: white;
+    
+}
+
+.formContainer{
+    max-width: 400px;
+    padding: 2%;
+    margin: 4% auto;
+    background-color: rgb(224, 221, 221);
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 2px;
+
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    border: 2px solid rgb(117, 116, 116);
+    border-radius: 3px;
+    background-color: rgb(248, 246, 246);
+    padding: 0.5%;
+    margin: 2%
+}
+
+form input:focus{
+    background-color: rgb(248, 246, 246);
+}
+
+h2{
+    text-align: center;
+    margin: 1% auto;
+}

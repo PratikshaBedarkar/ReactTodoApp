@@ -1,0 +1,29 @@
+.button{
+    width: 80px;
+    max-width: 200px;
+    background-color: rgb(181, 181, 252);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1%;
+    float: right;
+}
+
+.button:hover{
+    background-color: rgb(104, 104, 167);
+    color: white
+}
+
+.button:active{
+    background-color: rgb(78, 78, 125);
+    color: white;
+    
+}
+
+li{
+    background-color: rgb(224, 221, 221);;
+    border: 1px solid rgb(224, 221, 221);;
+    border-radius: 3px;
+    padding: 2%;
+    margin: 2% 0;
+    text-align: left;
+}
